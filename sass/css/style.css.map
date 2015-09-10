@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../mixin.scss"
+	],
+	"sourcesContent": [],
+	"mappings": "AAAA,gHAAgH;AAAmB,y1FAAy1F",
+	"names": []
+}
