@@ -1,0 +1,1 @@
+/** * Created by marciohelenomaiapessoa on 10/09/15. */$(window).scroll(function(){    var top = $(window).scrollTop();    if (typeof document.body.style.maxHeight === "underfined") {        $('.btnTopo').css({            'position' : 'absolute',            'top' : top + $(window).height() - 50        });    }});

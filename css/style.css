@@ -61,19 +61,19 @@ body {
 /** * Created by marciohelenomaiapessoa. * Project: atosdecristoTemplates * Date: 04/08/15 * Time: 12:15 */
 /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/helpers/cores.scss */
 aside .boxNoticia div.imgNoticia, aside section.devocional .imgDevocional, aside section.busca button.btn-pesquisa {
-  background: #d8ab32;
+  background: #fcc016;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #d8ab32 0%, #a68000 100%);
+  background: -moz-linear-gradient(top, #fcc016 0%, #a68000 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d8ab32), color-stop(100%, #a68000));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fcc016), color-stop(100%, #a68000));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #d8ab32 0%, #a68000 100%);
+  background: -webkit-linear-gradient(top, #fcc016 0%, #a68000 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #d8ab32 0%, #a68000 100%);
+  background: -o-linear-gradient(top, #fcc016 0%, #a68000 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #d8ab32 0%, #a68000 100%);
+  background: -ms-linear-gradient(top, #fcc016 0%, #a68000 100%);
   /* IE10+ */
-  background: linear-gradient(to bottom, #d8ab32 0%, #a68000 100%);
+  background: linear-gradient(to bottom, #fcc016 0%, #a68000 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
   /* IE6-9 */ }
@@ -81,27 +81,78 @@ aside .boxNoticia div.imgNoticia, aside section.devocional .imgDevocional, aside
 /** * Created by marciohelenomaiapessoa. * Project: atosdecristoTemplates * Date: 04/08/15 * Time: 18:02 */
 @font-face {
   font-family: "Square721";
-  src: url("../../Fonts/tt0246m_.ttf") format("truetype"); }
+  src: url("../Fonts/tt0246m_.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Souvenir";
-  src: url("../../Fonts/Souvenir.ttf") format("truetype"); }
+  src: url("../Fonts/Souvenir.ttf") format("truetype"); }
 
 @font-face {
   font-family: "VNF-Semilla";
-  src: url("../../Fonts/VNF-Semilla%20Script.ttf") format("truetype"); }
+  src: url("../Fonts/VNF-Semilla%20Script.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Harabara";
-  src: url("../../Fonts/Harabara.ttf") format("truetype"); }
+  src: url("../Fonts/Harabara.ttf") format("truetype"); }
 
-/** * Created by marciohelenomaiapessoa. * Project: atosdecristoTemplates * Date: 04/08/15 * Time: 18:40 */
+@font-face {
+  font-family: 'iconSlide';
+  src: url("../img/icomoon/fonts/icomoon.eot");
+  src: url("../img/icomoon/fonts/icomoon.eot") format("embedded-opentype"), url("../img/icomoon/fonts/icomoon.ttf") format("truetype"), url("../img/icomoon/fonts/icomoon.woff") format("woff"), url("../img/icomoon/fonts/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/helpers/fonts.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'iconSlide';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/helpers/fonts.scss */
+.icon-slideIcon-01 .path2:before {
+  content: "\e601";
+  margin-left: -0.947265625em;
+  color: #303031; }
+
+/* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/helpers/fonts.scss */
+.icon-slideIcon-02:before {
+  content: "\e602"; }
+
+/* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/helpers/fonts.scss */
+.icon-slideIcon-03:before {
+  content: "\e603"; }
+
+/* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/helpers/fonts.scss */
+.icon-slideIcon-04 .path1:before {
+  content: "\e604";
+  color: #303031; }
+
+/* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/helpers/fonts.scss */
+.icon-slideIcon-04 .path2:before {
+  content: "\e605";
+  margin-left: -0.947265625em;
+  color: #fcc016; }
+
+/* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/main.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
 /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/main.scss */
 body {
-  background-color: #c7c7c7;
-  padding: 2%; }
+  background-color: #c7c7c7; }
   /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/main.scss */
   body main {
+    padding: 0 2%;
     display: inline;
     float: left;
     width: 97.9166666667%;
@@ -110,10 +161,12 @@ body {
 /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/header.scss */
 header {
   width: 100%;
-  min-height: 568px;
-  overflow: hidden;
-  border-top: 0.3em solid #d8ab32;
-  margin-bottom: 1em; }
+  margin-bottom: 5%; }
+  @media (min-width: 480px) {
+    /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/header.scss */
+    header {
+      height: 320px;
+      overflow: hidden; } }
 
 /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/header.scss */
 h1.logoAtos {
@@ -124,7 +177,7 @@ h1.logoAtos {
   top: 0;
   left: 50%;
   margin-left: -1.5em;
-  z-index: 3;
+  z-index: 4;
   padding: 3% 2%;
   overflow: hidden;
   background: #fafafa;
@@ -178,10 +231,10 @@ h1.logoAtos {
   position: fixed;
   top: .7em;
   right: .8em;
-  z-index: 3; }
+  z-index: 5; }
   /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/header.scss */
   .menuIcon a {
-    color: #d8ab32;
+    color: #fcc016;
     font-size: 2em;
     display: inline;
     text-decoration: none; }
@@ -192,7 +245,7 @@ nav {
   height: 100%;
   min-height: 13em;
   background-color: rgba(51, 51, 51, 0.5);
-  z-index: 2;
+  z-index: 3;
   position: fixed;
   top: 0; }
   /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/header.scss */
@@ -217,69 +270,97 @@ nav {
     nav ul li:nth-child(odd) {
       background: rgba(51, 51, 51, 0.5); }
 
-/** * Created by marciohelenomaiapessoa. * Project: atosdecristoTemplates * Date: 09/09/15 * Time: 16:33 */
 /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
-section.slides {
-  width: 100%;
-  min-height: 563px;
+.slides {
+  border-top: 0.3em solid #d8ab32;
+  height: 568px;
   overflow: hidden;
-  position: absolute;
+  position: relative !important;
   top: 0;
+  bottom: 0;
+  right: 0;
   left: 0; }
   /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
-  section.slides ol li figure {
+  .slides ol {
     width: 100%;
-    background-size: cover;
-    position: absolute;
-    overflow: hidden; }
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../img/imgSlider/ajax-loader.gif");
+    background-repeat: no-repeat;
+    background-position: center center; }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
-    section.slides ol li figure img {
-      width: 100%;
-      min-height: 568px; }
-    /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
-    section.slides ol li figure figcaption {
-      width: 100%;
-      padding: .6em;
-      font-family: 'VNF-Semilla';
-      text-align: center;
-      font-size: 1.7em;
-      position: absolute;
-      bottom: 2em;
-      z-index: 2;
-      color: black;
-      background-color: rgba(250, 250, 250, 0.8);
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); }
+    .slides ol li {
+      overflow: hidden;
+      background-color: #cc0000;
+      position: relative; }
       /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
-      section.slides ol li figure figcaption span {
-        font-size: 0.7em; }
+      .slides ol li figure {
+        background-position: center center;
+        background-size: cover; }
+        /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
+        .slides ol li figure img {
+          width: 100%;
+          height: 100%;
+          min-height: 568px;
+          z-index: 1; }
+        /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
+        .slides ol li figure figcaption {
+          width: 100%;
+          padding: 3%;
+          font-family: 'VNF-Semilla';
+          text-align: center;
+          font-size: 1.7em;
+          position: absolute;
+          bottom: 30%;
+          left: 0;
+          z-index: 2;
+          color: black;
+          background-color: rgba(250, 250, 250, 0.8);
+          text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); }
+          /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
+          .slides ol li figure figcaption span {
+            display: block;
+            font-size: 60%; }
+          @media (min-width: 480px) {
+            /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
+            .slides ol li figure figcaption {
+              bottom: 0; } }
   /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
-  section.slides span#slideMarcadorLeft {
-    width: 5em;
+  .slides .slideNav {
+    width: 100%;
+    padding: .5em;
     position: absolute;
-    left: 3%;
-    bottom: 1em;
-    text-align: left;
-    display: inline;
-    z-index: 2; }
-  /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
-  section.slides span#slideMarcador {
-    width: 5em;
-    position: absolute;
-    left: 50%;
-    margin-left: -2.5em;
-    bottom: 1em;
+    bottom: 0;
+    font-family: 'iconSlide';
+    font-size: 2em;
     text-align: center;
-    display: inline;
-    z-index: 2; }
-  /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
-  section.slides span#slideMarcadorRight {
-    width: 5em;
-    position: absolute;
-    left: 93%;
-    bottom: 1em;
-    text-align: left;
-    display: inline;
-    z-index: 2; }
+    cursor: pointer; }
+    /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
+    .slides .slideNav #slideNavLeft {
+      float: left; }
+      /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
+      .slides .slideNav #slideNavLeft:before {
+        content: '\e600';
+        color: #fcc016; }
+      /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
+      .slides .slideNav #slideNavLeft:after {
+        content: '\e601';
+        margin-left: -0.947265625em; }
+    /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
+    .slides .slideNav span#slideMarcador {
+      padding: .2em;
+      background-color: #fcc016; }
+    /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
+    .slides .slideNav #slideNavRight {
+      float: right; }
+      /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
+      .slides .slideNav #slideNavRight:before {
+        content: '\e600';
+        color: #fcc016; }
+      /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/sliders.scss */
+      .slides .slideNav #slideNavRight:after {
+        content: '\e605';
+        margin-left: -0.947265625em; }
 
 /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
 section.pageBox {
@@ -309,67 +390,67 @@ section.pageBox {
     margin: 1%; }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(1) {
-      background-image: url("../../img/pageBox_atosSocial.png"); }
+      background-image: url("../img/pageBox_atosSocial.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(2) {
-      background-image: url("../../img/pageBox_amigoDeDeus.png"); }
+      background-image: url("../img/pageBox_amigoDeDeus.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(3) {
-      background-image: url("../../img/pageBox_comoChegar.png"); }
+      background-image: url("../img/pageBox_comoChegar.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(4) {
-      background-image: url("../../img/pageBox_email.png"); }
+      background-image: url("../img/pageBox_email.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(5) {
-      background-image: url("../../img/pageBox_calendario.png"); }
+      background-image: url("../img/pageBox_calendario.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(6) {
-      background-image: url("../../img/pageBox_galeriaImagem.png"); }
+      background-image: url("../img/pageBox_galeriaImagem.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(7) {
-      background-image: url("../../img/pageBox_pedidoDeOracao.png"); }
+      background-image: url("../img/pageBox_pedidoDeOracao.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(8) {
-      background-image: url("../../img/pageBox_dizimoEOferta.png"); }
+      background-image: url("../img/pageBox_dizimoEOferta.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(9) {
-      background-image: url("../../img/pageBox_palavraPastoral.png"); }
+      background-image: url("../img/pageBox_palavraPastoral.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(10) {
-      background-image: url("../../img/pageBox_MinistérioDeEnsino.png"); }
+      background-image: url("../img/pageBox_MinistérioDeEnsino.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(11) {
-      background-image: url("../../img/pageBox_atosTv.png"); }
+      background-image: url("../img/pageBox_atosTv.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(12) {
-      background-image: url("../../img/pageBox_sextaFire.png"); }
+      background-image: url("../img/pageBox_sextaFire.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(13) {
-      background-image: url("../../img/pageBox_casais.png"); }
+      background-image: url("../img/pageBox_casais.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(14) {
-      background-image: url("../../img/pageBox_mocidade.png"); }
+      background-image: url("../img/pageBox_mocidade.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(15) {
-      background-image: url("../../img/pageBox_kids.png"); }
+      background-image: url("../img/pageBox_kids.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(16) {
-      background-image: url("../../img/pageBox_ministerioLouvor.png"); }
+      background-image: url("../img/pageBox_ministerioLouvor.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li:nth-child(17) {
-      background-image: url("../../img/pageBox_ministerioLouvor.png"); }
+      background-image: url("../img/pageBox_ministerioLouvor.png"); }
     /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/pageBox.scss */
     section.pageBox ul li a {
       padding: 25%;
       display: block; }
 
-/** * Created by marciohelenomaiapessoa. * Project: atosdecristoTemplates * Date: 08/08/15 * Time: 02:22 */
 /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/noticia.scss */
 aside {
   display: inline;
   float: left;
   width: 97.9166666667%;
-  margin: 0 1.0416666667%; }
+  margin: 0 1.0416666667%;
+  padding: 0 0.5em; }
   /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/noticia.scss */
   aside .boxNoticia {
     display: inline;
@@ -441,6 +522,14 @@ aside {
       /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/noticia.scss */
       aside .boxNoticia p.noticiaView span {
         float: right; }
+    @media (min-width: 480px) {
+      /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/noticia.scss */
+      aside .boxNoticia {
+        display: inline;
+        float: left;
+        width: 47.9166666667%;
+        margin: 0 1.0416666667%;
+        margin-bottom: 1em; } }
   /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/noticia.scss */
   aside section.devocional {
     display: inline;
@@ -553,8 +642,8 @@ aside {
       height: auto;
       padding: 12px;
       text-indent: -9999px;
-      background-image: url("../../img/btnBusca.png");
-      background-color: #d8ab32;
+      background-image: url("../img/btnBusca.png");
+      background-color: #fcc016;
       background-position: center center;
       background-size: 80% 80%;
       background-repeat: no-repeat; }
@@ -591,7 +680,7 @@ footer {
   footer .btnTopo {
     width: 3em;
     height: 3em;
-    background-color: #d8ab32;
+    background-color: #fcc016;
     background: #F8B200;
     /* Old browsers */
     background: -moz-linear-gradient(top, #F8B200 0%, #B27800 100%);
@@ -618,7 +707,8 @@ footer {
     right: .5em;
     bottom: 6em;
     z-index: 3;
-    border: solid #999999 0.3em; }
+    border: solid #999999 0.3em;
+    display: none; }
   /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/footer.scss */
   footer .redeSocial {
     display: inline;
@@ -647,23 +737,23 @@ footer {
           display: block; }
         /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/footer.scss */
         footer .redeSocial ul li:nth-of-type(1) {
-          background-image: url("../../img/facebook.svg");
+          background-image: url("../img/facebook.svg");
           background-repeat: no-repeat; }
         /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/footer.scss */
         footer .redeSocial ul li:nth-of-type(2) {
-          background-image: url("../../img/instagran.svg");
+          background-image: url("../img/instagran.svg");
           background-repeat: no-repeat; }
         /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/footer.scss */
         footer .redeSocial ul li:nth-of-type(3) {
-          background-image: url("../../img/twitter.svg");
+          background-image: url("../img/twitter.svg");
           background-repeat: no-repeat; }
         /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/footer.scss */
         footer .redeSocial ul li:nth-of-type(4) {
-          background-image: url("../../img/googlePlus.svg");
+          background-image: url("../img/googlePlus.svg");
           background-repeat: no-repeat; }
         /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/footer.scss */
         footer .redeSocial ul li:nth-of-type(5) {
-          background-image: url("../../img/youtube.svg");
+          background-image: url("../img/youtube.svg");
           background-repeat: no-repeat; }
   /* line 1, /Applications/MAMP/htdocs/atosdecristoTemplates/sass/layout/footer.scss */
   footer .infoRodape {
@@ -677,7 +767,7 @@ footer {
       float: left;
       width: 47.9166666667%;
       margin: 0 1.0416666667%;
-      background-image: url("../../img/atosDeCristoLogo-01.svg");
+      background-image: url("../img/atosDeCristoLogo-01.svg");
       background-repeat: no-repeat;
       border-right: 0.1em groove #717175;
       text-indent: -9999px; }

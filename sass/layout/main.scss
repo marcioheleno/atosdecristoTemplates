@@ -1,1 +1,1 @@
-/** * Created by marciohelenomaiapessoa. * Project: atosdecristoTemplates * Date: 04/08/15 * Time: 18:40 */body {  background-color: $cinza-claro;  padding: 2%;  main {    @include column(12);  }}
+//// Created by marciohelenomaiapessoa.// Project: atosdecristoTemplates// Date: 04/08/15// Time: 18:40//html, body{  margin : 0;  padding : 0;  width : 100%;  height : 100%;}body {  background-color: $cinza-claro;  main {    padding: 0 2%;    @include column(12);  }}
